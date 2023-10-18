@@ -1,6 +1,8 @@
 import { createWebHistory, createRouter } from 'vue-router'
+import user from './user'
 
 const routes = [
+  ...user
 ]
 
 const router = createRouter( {
